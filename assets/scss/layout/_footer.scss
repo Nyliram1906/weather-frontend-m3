@@ -1,0 +1,26 @@
+@use '../abstracts/mixins';
+@use '../abstracts/variables';
+
+footer {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+
+  // En tu HTML el nav del footer usa clases Bootstrap directamente
+  // así que apuntamos al nav dentro del footer
+  nav ul {
+    @include mixins.footer-nav;
+  }
+
+  .nav-link {
+    color: variables.$mist-white;
+
+    &:hover {
+      color: variables.$weather-gold;
+    }
+  }
+
+  p {
+    color: variables.$ash-gray;
+  }
+}

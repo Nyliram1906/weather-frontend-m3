@@ -1,13 +1,15 @@
-//abstracts
+// abstracts
+@use './abstracts/variables';
 
-//vendors
-@import 'vendors/normalize';
+// base
+@use './base/base';
 
-//base
-@import 'base/reset';
-@import 'base/typography';
-@import 'base/base';    
+// layout
+@use './layout/footer';
 
-//components
- 
-@use 'components/cards' as *;
+// components
+@use './components/card';
+
+// pages
+
+// themes
