@@ -3,24 +3,13 @@ i {
 }
 
 body {
-  background: linear-gradient(135deg, #a8b8c7 0%, #8b9dc3 50%, #6b7c93 100%);
+  background: linear-gradient(180deg, #000814 0%, #001d3d 100%);
   min-height: 100vh;
-  color: #1a1f2e;
-  font-family: "Arial", sans-serif;
-  margin: 0;
-  padding: 0;
+  color: #d9d9d9;
 }
 
-h1 {
-  font-size: 36px;
-  color: #ffffff;
-  text-align: center;
-  margin-top: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-i {
-  font-size: 40px;
+h1, h2, h3 {
+  color: #ffd60a;
 }
 
 footer {
@@ -45,9 +34,6 @@ footer .nav-link:hover {
 }
 footer p {
   color: #4a4a4a;
-  font-size: 0.875rem;
-  text-align: center;
-  margin-top: 1rem;
 }
 
 .card__icon {
@@ -81,8 +67,7 @@ footer p {
 }
 
 .navbar {
-  background-color: rgba(0, 13, 38, 0.85) !important;
-  backdrop-filter: blur(6px);
+  background-color: #000814 !important;
   border-bottom: 2px solid #ffd60a;
 }
 .navbar .navbar-brand {
@@ -97,6 +82,9 @@ footer p {
 }
 .navbar .nav-link:hover, .navbar .nav-link.active {
   color: #ffd60a;
+}
+.navbar .navbar-toggler {
+  border-color: #ffd60a;
 }
 
 .card {
@@ -119,4 +107,4 @@ footer p {
   color: #4a4a4a !important;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css~.map */

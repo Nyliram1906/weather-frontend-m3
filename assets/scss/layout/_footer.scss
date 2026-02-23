@@ -1,5 +1,5 @@
-@use '../abstracts/mixins';
-@use '../abstracts/variables';
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
 
 footer {
   width: 100%;
@@ -22,5 +22,8 @@ footer {
 
   p {
     color: variables.$ash-gray;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 1rem;
   }
 }

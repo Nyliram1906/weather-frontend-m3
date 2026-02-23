@@ -3,13 +3,12 @@
 
 // base
 @use './base/base';
+@use './base/body';
 
 // layout
 @use './layout/footer';
 
 // components
 @use './components/card';
-
-// pages
-
-// themes
+@use './components/navbar';
+@use './components/detalle';
