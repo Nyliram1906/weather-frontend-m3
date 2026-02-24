@@ -6,8 +6,7 @@ footer {
   max-width: 960px;
   margin: 0 auto;
 
-  // En tu HTML el nav del footer usa clases Bootstrap directamente
-  // así que apuntamos al nav dentro del footer
+  //Clases nav y nav-link para el footer
   nav ul {
     @include mixins.footer-nav;
   }

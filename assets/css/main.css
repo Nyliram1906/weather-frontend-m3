@@ -50,6 +50,14 @@ footer p {
   margin-top: 1rem;
 }
 
+.grilla-ciudades {
+  padding: 1rem 0;
+}
+
+main.container {
+  min-height: 70vh;
+}
+
 .card__icon {
   font-size: 40px;
   color: #ffd60a;
@@ -60,6 +68,7 @@ footer p {
   background-color: #001d3d;
   border: 1px solid #4a4a4a;
   color: #d9d9d9;
+  cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .weather-card:hover {

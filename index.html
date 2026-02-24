@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -34,7 +34,7 @@
   </head>
 
   <body>
-    <!-- Navegación principal -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
         <a class="navbar-brand" href="./index.html">El Tiempo en Scadrial</a>
@@ -45,24 +45,19 @@
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html"
-                >Inicio</a
-              >
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./detalle.html">Detalle</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./acerca.html"
-                >Acerca de nosotros</a
-              >
+              <a class="nav-link active" aria-current="page" href="./acerca.html">Acerca de nosotros</a>
             </li>
           </ul>
         </div>
@@ -71,7 +66,7 @@
 
     <!-- Contenido principal -->
     <main class="container my-4">
-      <!-- Encabezado del contenido principal -->
+      <!-- Encabezado main -->
       <header class="my-4">
         <h1 class="text-center">Reporte del tiempo en el Imperio Final</h1>
       </header>
@@ -93,7 +88,7 @@
               </div>
             </article>
           </div>
-          
+
           <!-- Tarjeta 2 -->
           <div class="col">
             <article class="card weather-card text-center">
@@ -108,7 +103,7 @@
               </div>
             </article>
           </div>
-          
+
           <!-- Tarjeta 3 -->
           <div class="col">
             <article class="card weather-card text-center">
@@ -123,7 +118,7 @@
               </div>
             </article>
           </div>
-          
+
           <!-- Tarjeta 4 -->
           <div class="col">
             <article class="card weather-card text-center">
@@ -138,7 +133,7 @@
               </div>
             </article>
           </div>
-          
+
           <!-- Tarjeta 5 -->
           <div class="col">
             <article class="card weather-card text-center">
@@ -153,23 +148,8 @@
               </div>
             </article>
           </div>
-          
+
           <!-- Tarjeta 6 -->
-          <div class="col">
-            <article class="card weather-card text-center">
-              <i class="bi bi-clouds card__icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Conventical of Seran</h5>
-                <p class="card-text">9°C</p>
-                <p class="card-text">Ceniza pesada</p>
-              </div>
-              <div class="card-body">
-                <a class="card-link">Ver detalle</a>
-              </div>
-            </article>
-          </div>
-          
-          <!-- Tarjeta 7 -->
           <div class="col">
             <article class="card weather-card text-center">
               <i class="bi bi-cloud-fog2 card__icon"></i>
@@ -183,7 +163,20 @@
               </div>
             </article>
           </div>
-          
+          <!-- Tarjeta 7 -->
+          <div class="col">
+            <article class="card weather-card text-center">
+              <i class="bi bi-clouds card__icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">C. of Seran</h5>
+                <p class="card-text">9°C</p>
+                <p class="card-text">Ceniza pesada</p>
+              </div>
+              <div class="card-body">
+                <a class="card-link">Ver detalle</a>
+              </div>
+            </article>
+          </div>
           <!-- Tarjeta 8 -->
           <div class="col">
             <article class="card weather-card text-center">
@@ -198,7 +191,7 @@
               </div>
             </article>
           </div>
-          
+
           <!-- Tarjeta 9 -->
           <div class="col">
             <article class="card weather-card text-center">
@@ -213,7 +206,7 @@
               </div>
             </article>
           </div>
-          
+
           <!-- Tarjeta 10 -->
           <div class="col">
             <article class="card weather-card text-center">
@@ -232,7 +225,7 @@
       </section>
     </main>
 
-    <!-- Pie de página -->
+    <!-- Footer -->
     <footer class="container py-3 my-4">
       <nav>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -243,12 +236,13 @@
           </li>
           <li class="nav-item">
             <a href="./detalle.html" class="nav-link px-2 text-body-secondary"
-              >Detalle</a
-            >
+              >Detalle</a>
           </li>
         </ul>
       </nav>
-      <p class="text-center text-body-secondary">© 2025 Marilyn Villalobos - Mistborn Edition</p>
+      <p class="text-center text-body-secondary">
+        © 2025 Marilyn Villalobos - Mistborn Edition
+      </p>
     </footer>
   </body>
 </html>

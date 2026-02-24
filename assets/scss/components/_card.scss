@@ -9,7 +9,7 @@
   }
 }
 
-// Clase propia que agregaste en tu HTML (weather-card)
+// Clase para las tarjetas de clima
 .weather-card {
   @include mixins.weather-card-theme(
     variables.$weather-blue,

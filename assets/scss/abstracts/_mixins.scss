@@ -1,4 +1,4 @@
-@use '../abstracts/variables' as v;
+@use "../abstracts/variables" as v;
 
 @mixin flex-layout-center {
   display: flex;
@@ -26,7 +26,10 @@
   background-color: $bg;
   border: 1px solid $border-color;
   color: v.$mist-white;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 
   &:hover {
     transform: translateY(-4px);
